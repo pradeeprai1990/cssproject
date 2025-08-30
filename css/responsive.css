@@ -1,0 +1,463 @@
+ @media screen and (min-width: 200px) and (max-width: 768px) {
+     .destopmenu {
+         display: none;
+     }
+     .topheader .navbar {
+         display: flex;
+         justify-content: space-between;
+     }
+     .topheader .mobliemenu {
+         display: flex;
+         justify-content: space-between;
+
+     }
+     .navbar-toggler:focus {
+         box-shadow: none !important;
+         outline: none;
+     }
+     .apply-btnresponsive {
+         color: #FFF;
+         font-family: "Poppins", sans-serif;
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: normal;
+         letter-spacing: -0.11px;
+         border-radius: 4px;
+         padding: 6px 15px;
+         border: 1px solid #F00109;
+         background: #F00109;
+         box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+     }
+     .apply-btnresponsive:hover {
+         background-color: #111D5E;
+         color: #fff;
+     }
+     .topheader .offcanvas {
+         width: 80%;
+     }
+     .smooth-collapse {
+         max-height: 0;
+         overflow: hidden;
+         transition: max-height 0.4s ease-in-out;
+     }
+     .smooth-collapse.show {
+         max-height: 500px;
+     }
+     .nav-link i {
+         transition: transform 0.3s ease;
+     }
+     .nav-link[aria-expanded="true"] i {
+         transform: rotate(180deg);
+     }
+     .btn-close:focus {
+         box-shadow: none;
+     }
+     .topheader .nav-link {
+         color: #292929;
+         font-family: "Poppins", sans-serif;
+         font-size: 15px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 24px;
+     }
+     .slidersection .carousel-control-prev{
+        display: none;
+     }
+     .slidersection .carousel-control-next{
+        display: none;
+     }
+     .slidersection img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.super-career{
+    padding: 30px 15px;
+}
+
+.sectionmainheading{
+font-size: 26px;
+line-height: 34px;
+padding-bottom: 5px;
+}
+.subheading {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 5px;
+ }
+ .icon-box img{
+    width: 50px;
+ }
+
+ .carrerplatform h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.topper-card{
+    margin-bottom: 0px;
+ }
+ .topper-img-wrapper img {
+    padding: 20px 20px 10px 20px;
+    margin-top: 0px;
+ }
+ .topper-name{
+    font-size: 18px;
+ }
+
+.topper-rank {
+    font-size: 16px;
+}
+.popular-courses{
+    padding: 30px 15px;
+}
+.course-card {
+    margin-bottom: 20px;
+}
+.course-card h5{
+    font-size: 20px;
+    line-height: 28px;
+}
+.scholarship-test{
+    padding: 30px 15px;
+}
+.scholarship-test-title {
+    font-size: 36px;
+    line-height: 46px;
+}
+.scholarshipimg {
+    bottom: -10px;
+}
+.preparation-resources{
+padding: 30px 15px;
+}
+.resource-card .number {
+    font-size: 40px;
+}
+.resource-card .icon img {
+    width: 40px;
+    height: 40px;
+ }
+ .resource-card h5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.choose-clat{
+padding: 30px 15px;
+}
+.choose-clat-card img {
+    height: auto;
+    margin-bottom: 0px;
+ }
+ .choose-clat-card-yellow{
+padding: 20px 15px;
+height: auto;
+margin-top: -1px;
+ }
+ .choose-clat-card-title{
+    font-size: 20px;
+ }
+  .choose-clat-card-blue{
+padding: 20px 15px;
+height: auto;
+margin-top: -1px;
+ }
+ .topperresult{
+    padding: 30px 15px;
+ }
+     .reslutdestopview{
+        display: none;
+    }
+    .moblieSliderresult .owl-item img{
+   display: inline!important;
+
+    }
+    .student-video-testmonial{
+        padding: 30px 15px;
+    }
+    .video-testmonial-slider .item{
+        padding: 0px;
+        margin: 5px;
+    }
+    .studenttestmonial{
+        padding: 30px 15px;
+    }
+    .om-media{
+        padding: 30px 15px;
+    }
+    .latest-news{
+        padding: 30px 15px;
+    }
+    .latest-news-card {
+    padding: 0px;
+}
+.explore-clat-eduction {
+padding: 30px 15px;
+}
+.clat-eduction-imge{
+    height: auto;
+}
+.counselling-form {
+    position: inherit;
+}
+.counselling-form h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.events-activities{
+    padding: 30px 15px;
+}
+.events-activities-title {
+    font-size: 20px;
+    line-height: 28px;
+}
+.events-activities-card {
+margin-bottom: 20px;
+}
+.events-activities-subcard{
+    margin-bottom: 20px;
+}
+.freeresources {
+    padding: 30px 15px;
+ }
+ .footerlayout {
+padding: 30px 15px;
+background-position: center!important;
+ }
+ .telegramchannel{
+    padding: 30px 15px;
+    bottom: 0px;
+ }
+ .telchcontainer {
+    padding: 20px 15px 10px 15px;
+ }
+ .footercontantlayout img{
+    width: 120px;
+   
+ }
+
+ .slidercontantlayput{
+    padding: 40px 15px;
+ }
+ .hero-slide-subtitle {
+    font-size: 28px;
+    line-height: 28px;
+ }
+ .hero-slide-title{
+    font-size: 80px;
+    line-height: 80px;
+ }
+ .hero-slide-shortdiscription {
+    font-size: 18px;
+ }
+
+ #hero-section-slider .hero-section-slide-right img {
+    padding-top: 50px;
+}
+#hero-section-slider .owl-nav button {
+    display: none;
+}
+.about-section {
+    padding: 40px 15px;
+}
+.about-subheading {
+    font-size: 20px;
+    line-height: 60px;
+    justify-content: center;
+}
+#aboutVector{
+    width: 40px;
+    height: 40px;
+}
+.about-mainheading 
+{
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about-feature {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+border: 1px solid rgba(85, 85, 85, 0.20);
+
+}
+.about-feature p{
+    text-align: center;
+}
+.about-feature-heading{
+text-align: center;
+}
+ 
+.about-section .counter-number {
+    font-size: 28px;
+    line-height: 38px;
+}
+.about-section .counter-text{
+    font-size: 16px;
+}
+.about-section .student-count {
+    position: absolute;
+    bottom: -50px;
+    left: 12px;
+    right: 30px;
+    color: #fff;
+    padding: 20px 15px;
+}
+#popular-courses-mobile .content-wrapper img {
+    width: 45px;
+    height: 45px;
+}
+.about-subheadings {
+    font-size: 28px;
+    line-height: 42px;
+}
+#aboutVectors{
+    width: 80px!important;
+    height: 80px !important;
+}
+.why-choose-section{
+    padding: 30px 15px;
+}
+.why-choose-card {
+    padding: 20px;
+    margin-bottom: 0px;
+  border-radius: 8px;
+border: 1px solid rgba(85, 85, 85, 0.20);
+}
+.popular-courses-destop{
+    display: none;
+}
+.testmonial-section {
+    padding: 30px 10px;
+}
+.testmonial-slide-card{
+    border: none;
+}
+.testmonial-slider-card {
+    padding: 20px 15px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.testmonial-slider-card p {
+    font-size: 15px;
+    line-height: 26px;
+}
+.testmonial-slider-profile{
+    padding: 5px 0px;
+}
+.testmonial-nav {
+    justify-content:end;
+    margin-bottom: 20px;
+}
+.video-section-slider {
+    padding: 30px 10px;
+}
+.latest-news-title {
+    font-size: 20px;
+    line-height:28px ;
+}
+.om-media-container {
+    padding: 20px 15px;
+    background-size: auto!important;
+}
+.about-subheadingss {
+    font-size: 28px;
+    line-height: 45px;
+}
+.global-credentials-main {
+    padding: 30px 15px;
+}
+.global-contnat-tabs{
+    margin-top: 0px;
+}
+.global-contnat-tabs #pills-tab {
+    width: 100%;
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: auto;   /* ✅ scroll ke liye */
+    display: flex;
+    flex-wrap: nowrap;
+    scrollbar-width: thin;          /* Firefox ke liye */
+    scrollbar-color: #ED1B23 #fff; /* Firefox ke liye (thumb color, track color) */
+}
+
+
+.global-contnat-tabs #pills-tab::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.global-contnat-tabs #pills-tab::-webkit-scrollbar-track {
+    background: #fff; 
+    border-radius: 10px;
+}
+
+.global-contnat-tabs #pills-tab::-webkit-scrollbar-thumb {
+    background: #fff;  
+    border-radius: 10px;
+}
+
+.global-contnat-tabs #pills-tab::-webkit-scrollbar-thumb:hover {
+    background: #ffff;
+}
+.global-contnat-tabs .nav-link{
+    white-space: nowrap;
+    margin: 20px 0px;
+}
+.tabssliderlayput-img img {
+object-fit: cover;
+ }
+ .book-free-counselling{
+    padding: 30px 15px;
+ }
+ .book-free-from-heading{
+    font-size: 24px;
+ }
+ .voice-student{
+    padding: 30px 15px;
+ }
+ .btnresponsive{
+    width: 100%;
+    text-align: center;
+ }
+ .voice-student-card-images img{
+    height: auto;
+ }
+ .voice-studend-card{
+    background: #FFF;
+    padding: 0px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 5px;
+}
+.voice-student-card-body {
+    padding: 10px 15px;
+       position: relative;
+    top: 0px;
+    width: 100%;
+}
+.voice-student-card-title {
+    font-size: 20px;
+}
+.voice-student-card-discription{
+    width: 100%;
+}
+.events-activities-subcard{
+    background: #fff;
+}
+.events-activities-subcardbody{
+    background: #fff;
+    padding: 10px 15px;
+}
+.copyrightfooter {
+    padding: 15px 5px;
+}
+
+
+ }
+ 
+

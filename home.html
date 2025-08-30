@@ -1,0 +1,1569 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Lawprep Kolkata</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <section class="sticky-top ">
+        <div class="topheader">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid moblemenu d-lg-none d-flex justify-content-between align-items-center">
+                        <button class="navbar-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none">
+                                <path d="M3 4H21V6H3V4ZM3 11H15V13H3V11ZM3 18H21V20H3V18Z" fill="#363F4A" />
+                            </svg>
+                        </button>
+                        <a class="navbar-brand mx-auto" href="#">
+                            <img src="image/logo.webp" width="80" alt="Law Prep Logo">
+                        </a>
+                        <a class="btn apply-btnresponsive" href="#">
+                            Apply for Scholarship
+                        </a>
+                    </div>
+                    <div class="container-fluid ">
+                        <a class="navbar-brand destopmenu" href="#">
+                            <img src="image/logo.webp" width="130" title="Law Prep" alt="Law Prep Logo">
+                        </a>
+                        <button class="navbar-toggler destopmenu" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Test Series</a></li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Study
+                                        Material
+                                        <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Material 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Material 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Free
+                                        Resources
+                                        <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Resource 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Resource 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                                        Results <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Result 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Result 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="nav-item"><a class="phoneicon" href="#">
+                                        <span><i class="fa-solid fa-phone"></i></span>
+                                    </a></li>
+                                <li class="nav-item">
+                                    <a class="applynow-btn" href="#">Apply for Scholarship</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title">
+                                    <a class="navbar-brand " href="#">
+                                        <img src="image/logo.webp" width="80" alt="Law Prep Logo">
+                                    </a>
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav ms-auto w-100">
+                                    <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Test Series</a></li>
+
+                                    <!-- Study Material Dropdown -->
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" href="#studyMenu" role="button">
+                                            Study Material
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <div class="collapse" id="studyMenu">
+                                            <ul class="list-unstyled ps-3">
+                                                <li><a class="nav-link" href="#">Material 1</a></li>
+                                                <li><a class="nav-link" href="#">Material 2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <!-- Free Resources Dropdown -->
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" href="#freeMenu" role="button">
+                                            Free Resources
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <div class="collapse" id="freeMenu">
+                                            <ul class="list-unstyled ps-3">
+                                                <li><a class="nav-link" href="#">Resource 1</a></li>
+                                                <li><a class="nav-link" href="#">Resource 2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <!-- Results Dropdown -->
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" href="#resultsMenu" role="button">
+                                            Results
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <div class="collapse" id="resultsMenu">
+                                            <ul class="list-unstyled ps-3">
+                                                <li><a class="nav-link" href="#">Result 1</a></li>
+                                                <li><a class="nav-link" href="#">Result 2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section>
+        <div class="slidersection">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="image/09_Banner-World-Record-scaled.webp" class="d-lg-block d-none w-100" alt="...">
+                        <img src="image/image (34).webp" class="d-lg-none d-block" alt="" srcset="">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="image/09_Banner-World-Record-scaled.webp" class="d-lg-block d-none w-100" alt="...">
+                        <img src="image/image (34).webp" class="d-lg-none d-block" alt="" srcset="">
+                    </div>
+                    <div class="carousel-item">
+                   <img src="image/09_Banner-World-Record-scaled.webp" class="d-lg-block d-none w-100" alt="...">
+                        <img src="image/image (34).webp" class="d-lg-none d-block" alt="" srcset=""></div>
+                    <div class="carousel-item">
+                   <img src="image/09_Banner-World-Record-scaled.webp" class="d-lg-block d-none w-100" alt="...">
+                        <img src="image/image (34).webp" class="d-lg-none d-block" alt="" srcset=""></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="custom-carousel-icon" aria-hidden="true"><i class="fa-solid fa-arrow-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="custom-carousel-icon" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="super-career pb-0">
+            <div class="container">
+                <div class="row gx-lg-5 ">
+                    <div class="col-lg-5 order-lg-1 order-2">
+                        <div class="row" style="margin-top: 80px;">
+                            <div class="col-6 col-md-6">
+                                <div class="topper-card">
+                                    <div class="topper-img-wrapper">
+                                        <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                    </div>
+                                    <div class="topper-name">Jai Bohra</div>
+                                    <div class="topper-rank">AIR 1 - 2024</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <div class="topper-card">
+                                    <div class="topper-img-wrapper">
+                                        <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                    </div>
+                                    <div class="topper-name">Jai Bohra</div>
+                                    <div class="topper-rank">AIR 1 - 2024</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-6 pt-lg-5 pt-0">
+                                <div class="topper-card">
+                                    <div class="topper-img-wrapper">
+                                        <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                    </div>
+                                    <div class="topper-name">Jai Bohra</div>
+                                    <div class="topper-rank">AIR 1 - 2024</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-6 pt-lg-5 pt-0">
+                                <div class="topper-card">
+                                    <div class="topper-img-wrapper">
+                                        <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                    </div>
+                                    <div class="topper-name">Jai Bohra</div>
+                                    <div class="topper-rank">AIR 1 - 2024</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-7 order-lg-2 order-1">
+                        <div class="super-career-contant">
+                            <div class="sectionmainheading pb-0">India's Largest Super Career Platform</div>
+                            <div class="subheading">
+                                <p class="">Lorem ipsum dolor sit amet consectetur. Habitasse turpis tincidunt nullam
+                                    Lorem ipsum dolor sit amet consectetur. Habitasse turpis tincidunt nullam
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pb-3">
+                                <div class="carrerplatform">
+                                    <div class="d-flex align-items-start position-relative">
+                                        <div class="icon-box me-3">
+                                            <img src="image/iconsdata.svg" alt="Icon" width="80">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h3 class="">23 Years of CLAT Excellence</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur. Habitasse turpis ac tincidunt
+                                                nullam. Sapien neque lectus sed blandit aliquet rutrum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-3">
+                                <div class="carrerplatform">
+                                    <div class="d-flex align-items-start position-relative">
+                                        <div class="icon-box me-3">
+                                            <img src="image/iconsdata.svg" alt="Icon" width="80">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h3 class="">23 Years of CLAT Excellence</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur. Habitasse turpis ac tincidunt
+                                                nullam. Sapien neque lectus sed blandit aliquet rutrum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 pb-3">
+                                <div class="carrerplatform">
+                                    <div class="d-flex align-items-start position-relative">
+                                        <div class="icon-box me-3">
+                                            <img src="image/iconsdata.svg" alt="Icon" width="80">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h3 class="">23 Years of CLAT Excellence</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur. Habitasse turpis ac tincidunt
+                                                nullam. Sapien neque lectus sed blandit aliquet rutrum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section>
+        <div class="popular-courses">
+            <div class="container">
+                <div class="row ">
+                    <div class="sectionmainheading text-center">Our Most Popular Courses</div>
+                    <div class="subheading">
+                        <p class="text-center">Join the country’s best CLAT coaching institute!
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="course-card position-relative overflow-hidden  shadow">
+                            <img src="image/cardimages.webp" alt="CLAT Classroom Coaching" class="img-fluid w-100">
+                            <div class="overlay-content px-4 py-3">
+                                <div class="content-wrapper transition">
+                                    <h5 class="d-flex align-items-center">
+                                        <img src="image/mdi_account-graduation.svg" width="30" alt="icon" class="me-2">
+                                        CLAT Classroom Coaching
+                                    </h5>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet conse sey ctetur. Euismod amet eu amet
+                                        nulla pretium.</p>
+                                </div>
+                                <div class="view-details">
+                                    View Details <span class="ms-1">→</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="course-card position-relative overflow-hidden  shadow">
+                            <img src="image/cardimages.webp" alt="CLAT Classroom Coaching" class="img-fluid w-100">
+                            <div class="overlay-content px-4 py-3">
+                                <div class="content-wrapper transition">
+                                    <h5 class="d-flex align-items-center">
+                                        <img src="image/mdi_account-graduation.svg" width="30" alt="icon" class="me-2">
+                                        CLAT Classroom Coaching
+                                    </h5>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet conse sey ctetur. Euismod amet eu amet
+                                        nulla pretium.</p>
+                                </div>
+                                <div class="view-details">
+                                    View Details <span class="ms-1">→</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="course-card position-relative overflow-hidden  shadow">
+                            <img src="image/cardimages.webp" alt="CLAT Classroom Coaching" class="img-fluid w-100">
+                            <div class="overlay-content px-4 py-3">
+                                <div class="content-wrapper transition">
+                                    <h5 class="d-flex align-items-center">
+                                        <img src="image/mdi_account-graduation.svg" width="30" alt="icon" class="me-2">
+                                        CLAT Classroom Coaching
+                                    </h5>
+                                    <p class="mb-2">Lorem ipsum dolor sit amet conse sey ctetur. Euismod amet eu amet
+                                        nulla pretium.</p>
+                                </div>
+                                <div class="view-details">
+                                    View Details <span class="ms-1">→</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="scholarship-test">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 ">
+                        <div class="scholarship-test-contnat">
+                            <div class="scholarship-test-title">India’s Biggest<br> CLAT Scholarship <br>Test </div>
+                            <div class="joinhowbtn  text-start pt-4">
+                                <a class="applynow-btn" href="#">Apply for Scholarship</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="scholarship-test-image">
+                            <div class="scholarship-test-subdiscription pt-lg-5 pt-0">
+                                Apply for the biggest CLAT scholarship test in India and get up to 100% scholarship on
+                                2026 and 2027 coaching!
+                            </div>
+                            <div class="scholarshipimg">
+                                <img src="image/image (31).webp" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="scholarship-bg">
+            <div class="scrolling-text">
+                <span>SCHOLARSHIP TEST</span>
+                <span>SCHOLARSHIP TEST</span>
+                <span>SCHOLARSHIP TEST</span>
+                <span>SCHOLARSHIP TEST</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="preparation-resources">
+            <div class="container">
+                <div class="row">
+                    <div class="sectionmainheading text-center">CLAT Preparation Resources</div>
+                    <div class="subheading">
+                        <p class="text-center">Comprehensive and proven resources for every CLAT aspirant!
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-4 pb-lg-0 pb-3">
+                        <div class="resource-card">
+                            <div class="icon"><img src="image/farmeicon.svg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="number">01</div>
+                            <h5>Essential CLAT Mock Tests</h5>
+                            <p>Proven study material to give wings to your CLAT preparation</p>
+                            <div class="features">
+                                <span><i class="fa-regular fa-clipboard"></i> 10 Mock Tests</span>
+                                <span><i class="fa-solid fa-book-open"></i> 400+ Topic Tests</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 pb-lg-0 pb-3">
+                        <div class="resource-card">
+                            <div class="icon"><img src="image/farmeicon.svg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="number">01</div>
+                            <h5>Essential CLAT Mock Tests</h5>
+                            <p>Proven study material to give wings to your CLAT preparation</p>
+                            <div class="features">
+                                <span><i class="fa-regular fa-clipboard"></i> 10 Mock Tests</span>
+                                <span><i class="fa-solid fa-book-open"></i> 400+ Topic Tests</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 pb-lg-0 pb-3">
+                        <div class="resource-card">
+                            <div class="icon"><img src="image/farmeicon.svg" class="img-fluid" alt="" srcset=""></div>
+                            <div class="number">01</div>
+                            <h5>Essential CLAT Mock Tests</h5>
+                            <p>Proven study material to give wings to your CLAT preparation</p>
+                            <div class="features">
+                                <span><i class="fa-regular fa-clipboard"></i> 10 Mock Tests</span>
+                                <span><i class="fa-solid fa-book-open"></i> 400+ Topic Tests</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-lg-5 py-3">
+                    <div class="joinhowbtn  text-center">
+                        <a class="applynow-btn" href="#">Explore All</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="choose-clat">
+            <div class="container">
+                <div class="row ">
+                    <div class="sectionmainheading text-center">Choose Us for CLAT Coaching</div>
+                    <div class="subheading">
+                        <p class="text-center">Law Prep Tutorial is the top choice of law aspirants for CLAT coaching
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-3">
+                        <div class="choose-clat-card">
+                            <img src="image/image (25).webp" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="choose-clat-card-yellow">
+                            <div class="choose-clat-card-title">First-rate Study Material</div>
+                            <div class="choose-clat-card-discription">Lorem ipsum dolor sit amet consectetur.
+                                Ullamcorper ultricies.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="choose-clat-card">
+                            <img src="image/image (27).webp" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="choose-clat-card-blue">
+                            <div class="choose-clat-card-title text-white">Student Performance Analysis</div>
+                            <div class="choose-clat-card-discription text-white">Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-lg-none d-block">
+                        <div class="choose-clat-card">
+                            <img src="image/image (29).webp" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="choose-clat-card-blue">
+                            <div class="choose-clat-card-title text-white">360 Guidance & Preparation</div>
+                            <div class="choose-clat-card-discription text-white">Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 d-lg-block d-none">
+                        <div class="choose-clat-card">
+                            <img src="image/image (29).webp" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 d-lg-block d-none">
+                        <div class="choose-clat-card-yellow">
+                            <div class="choose-clat-card-title">Most Experienced Teachers</div>
+                            <div class="choose-clat-card-discription">Lorem ipsum dolor sit amet consectetur.
+                                Ullamcorper ultricies.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 ">
+                        <div class="choose-clat-card">
+                            <img src="image/image (30).webp" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-lg-none d-block">
+                        <div class="choose-clat-card-yellow">
+                            <div class="choose-clat-card-title">Most Experienced Teachers</div>
+                            <div class="choose-clat-card-discription">Lorem ipsum dolor sit amet consectetur.
+                                Ullamcorper ultricies.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="topperresult pb-0">
+            <div class="container">
+                <div class="row pb-lg-5 pb-3">
+                    <div class="sectionmainheading text-center">CLAT Preparation Resources</div>
+                    <div class="subheading">
+                        <p class="text-center">Comprehensive and proven resources for every CLAT aspirant!
+                        </p>
+                    </div>
+                </div>
+                <div class="reslutdestopview">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5" style="margin-top: 80px;">
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="topper-card bgcolorchange">
+                                <div class="topper-img-wrapper">
+                                    <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                </div>
+                                <div class="topper-name">Jai Bohra</div>
+                                <div class="topper-rank">AIR 1 - 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="moblieSliderresult">
+                    <div class="row  d-lg-none d-block ">
+                        <div id="moblieSliderresult" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="row" style="margin-top: 80px; margin-bottom: 20px;">
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="row" style="margin-top: 80px; margin-bottom: 20px;">
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="topper-card bgcolorchange">
+                                            <div class="topper-img-wrapper">
+                                                <img src="image/jai.webp" class="img-fluid" alt="Jai Bohra">
+                                            </div>
+                                            <div class="topper-name">Jai Bohra</div>
+                                            <div class="topper-rank">AIR 1 - 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                     </div>
+                    </div>
+                </div>
+
+                <div class="row pb-5" style="margin-top: -80px;">
+                    <div class="joinhowbtn  text-center">
+                        <a class="applynow-btn" href="#">Explore All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="student-video-testmonial">
+            <div class="container">
+                <div class="row">
+                    <div class="sectionmainheading text-center">Student Testimonials</div>
+                    <div class="subheading">
+                        <p class="text-center">Hear yourself what students are saying about our CLAT coaching institute
+                            in Patna!
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-lg-3 pt-0 ">
+                    <div class="video-testmonial-slider">
+                             <div id="video-testmonial-slider" class="owl-carousel owl-theme">
+                            <div class="item">
+                                  <div class="video-testmonial-card" data-bs-toggle="modal" data-bs-target="#videoModal"
+                            data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                            <div class="video-thumbnail">
+                                <img src="image/image (24).webp" class="img-fluid" alt="Video Thumbnail">
+                                <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal"
+                                    data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="latest-news-cardbody  p-4">
+                                <div class="latest-news-title pb-3">For CLAT coaching that cares and equips you for
+                                    success.
+                                </div>
+                                <div class="footer-left pb-3">
+                                    <div>
+                                        <h6>Jigyasa</h6>
+                                        <span>AIR 9 CLAT 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+                            </div>
+                            <div class="item">
+                                 <div class="video-testmonial-card" data-bs-toggle="modal" data-bs-target="#videoModal"
+                            data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                            <div class="video-thumbnail">
+                                <img src="image/image (24).webp" class="img-fluid" alt="Video Thumbnail">
+                                <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal"
+                                    data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="latest-news-cardbody  p-4">
+                                <div class="latest-news-title pb-3">For CLAT coaching that cares and equips you for
+                                    success.
+                                </div>
+                                <div class="footer-left pb-3">
+                                    <div>
+                                        <h6>Jigyasa</h6>
+                                        <span>AIR 9 CLAT 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                                  <div class="item">
+                                 <div class="video-testmonial-card" data-bs-toggle="modal" data-bs-target="#videoModal"
+                            data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                            <div class="video-thumbnail">
+                                <img src="image/image (24).webp" class="img-fluid" alt="Video Thumbnail">
+                                <div class="play-btn" data-bs-toggle="modal" data-bs-target="#videoModal"
+                                    data-video="https://www.youtube.com/embed/It4mme_yDN0">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="latest-news-cardbody  p-4">
+                                <div class="latest-news-title pb-3">For CLAT coaching that cares and equips you for
+                                    success.
+                                </div>
+                                <div class="footer-left pb-3">
+                                    <div>
+                                        <h6>Jigyasa</h6>
+                                        <span>AIR 9 CLAT 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="studenttestmonial">
+            <div class="container">
+                <div class="testmonialslider">
+                    <div id="testmonialslider" class="owl-carousel owl-theme">
+                        <!-- Testimonial 1 -->
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonial-card">
+                                <p>
+                                    I thank Law Prep Tutorial, Patna for making my journey as a CLAT aspirant a
+                                    remarkable one.
+                                    The learning and practice materials, mock tests and authentic guidance of mentors
+                                    was my secret
+                                    behind cracking CLAT. My sincere thanks for helping me to get into my dream NLU.
+                                </p>
+                                <div class="testimonial-footer">
+                                    <div class="footer-left">
+                                        <img src="image/image.svg" alt="Profile">
+                                        <div>
+                                            <h6>Jigyasa</h6>
+                                            <span>AIR 9 CLAT 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-right">
+                                        <img src="image/Frame.svg" class="img-fluid" alt="Quote Icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="om-media" style="background: url('image/onmediabg.webp'); background-position: center;
+         background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="om-media-contant">
+                            <div class="sectionmainheading text-white">We’re On Media</div>
+                            <div class="subheading">
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur. Faucibus quam tortor
+                                    tempor amet non quis risus sollicitudin. Aliquam ut gravida erat augue. Eget
+                                    porttitor.
+                                </p>
+                            </div>
+                            <div class="joinhowbtn pb-5">
+                                <a class="applynow-btn" href="#">Explore All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4">
+                                <div class="om-media-images">
+                                    <img src="image/hindustant.webp" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="latest-news">
+            <div class="container">
+                <div class="row">
+                    <div class="sectionmainheading text-center">Latest News & Article</div>
+                    <div class="subheading">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur. Sed fames adipiscing cursus elit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row pt-4">
+                    <div class="col-lg-7 px-4">
+                        <div class="row">
+                            <div class="latest-news-card ps-0 d-lg-flex d-block mb-4  gap-4">
+                                <div class="col-lg-4">
+                                    <img src="image/Rectangle 4097.webp" height="220" class="w-100" alt="" srcset="">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="latest-news-cardbody p-3">
+                                        <div class="latest-news-title">CLAT Exam Pattern 2025: Marks, Questions, Changes
+                                        </div>
+                                        <div class="latest-news-subdiscription">If you are a law aspirant, you are
+                                            probably already
+                                            familiar with what is CLAT Common Law.</div>
+                                        <a class="latest-news-redmore">Read More &nbsp;<i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="latest-news-card ps-0 d-lg-flex d-lg-block d-none gap-4">
+                                <div class="col-lg-4">
+                                    <img src="image/Rectangle 4097.webp" height="220" class="w-100" alt="" srcset="">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="latest-news-cardbody p-3">
+                                        <div class="latest-news-title">CLAT Exam Pattern 2025: Marks, Questions, Changes
+                                        </div>
+                                        <div class="latest-news-subdiscription">If you are a law aspirant, you are
+                                            probably already
+                                            familiar with what is CLAT Common Law.</div>
+                                        <a class="latest-news-redmore">Read More &nbsp;<i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-lg-flex d-lg-block d-none">
+                        <div class="latest-news-card">
+                            <img src="image/Rectangle 4097.webp" class="img-fluid" alt="" srcset="">
+                            <div class="latest-news-cardbody p-4">
+                                <div class="latest-news-title">CLAT Exam Pattern 2025: Marks, Questions, Changes</div>
+                                <div class="latest-news-subdiscription">If you are a law aspirant, you are probably
+                                    already
+                                    familiar with what is CLAT Common Law.</div>
+                                <a class="latest-news-redmore">Read More &nbsp;<i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-lg-5 py-3">
+                    <div class="joinhowbtn  text-center">
+                        <a class="applynow-btn" href="#">View All Blogs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="explore-clat-eduction">
+            <div class="container">
+                <div class="row">
+                    <div class="sectionmainheading text-center">Explore the possibilities of a CLAT education</div>
+                    <div class="subheading">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur. Sed fames adipiscing cursus elit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row d-lg-none d-block">
+                    <div class="col-lg-12">
+                        <img src="image/image (21).webp" class="img-fluid" height="350" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="clat-eduction-imge rounded" style="background: url('image/image (21).webp'); background-position: center;
+         background-size: cover; background-repeat: no-repeat;">
+                    <div class="row">
+                        <div class="col-lg-7"></div>
+                        <div class="col-lg-5">
+                            <div class="counselling-form">
+                                <h4>Book Free Counselling</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur. Vel sed.</p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Vicky Jain">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="mb-3">
+                                        <select class="form-select">
+                                            <option selected>Select Course</option>
+                                            <option>Course 1</option>
+                                            <option>Course 2</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter City">
+                                    </div>
+                                    <button type="submit" class="btn btn-apply">Apply Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="events-activities">
+            <div class="container">
+                <div class="row ">
+                    <div class="sectionmainheading text-center">Events & Activities</div>
+                    <div class="subheading">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur. Sed fames adipiscing cursus elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-5">
+                        <div class="events-activities-card position-relative">
+                            <img src="image/event.webp" class="card-img-top" alt="CLAT News">
+                            <div class="overlay-content">
+                                <span class="news-badge">New updates</span>
+                                <h5 class="events-activities-title mt-2">CLAT 2025 Admit Card Released <br>- How To
+                                    Download, Direct Link</h5>
+                                <p class="events-date"><i class="fa-solid fa-calendar-week"></i> &nbsp;&nbsp; November
+                                    20, 2024</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="events-activities-subcard">
+                                    <img src="image/image (20).webp" class="img-fluid" alt="" srcset="">
+                                    <div class="events-activities-subcardbody py-3">
+                                        <span class="news-badge">New updates</span>
+                                        <h5 class="events-activities-title mt-2"
+                                            style="color: #111D5E; font-size: 20px;">CLAT 2025 Admit Card Released <br>-
+                                            How To Download, Direct Link</h5>
+                                        <p class="events-date" style="color: #555;"><i
+                                                class="fa-solid fa-calendar-week"></i> &nbsp;&nbsp; November 20, 2024
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="events-activities-subcard">
+                                    <img src="image/image (20).webp" class="img-fluid" alt="" srcset="">
+                                    <div class="events-activities-subcardbody py-3">
+                                        <span class="news-badge">New updates</span>
+                                        <h5 class="events-activities-title mt-2"
+                                            style="color: #111D5E; font-size: 20px;">CLAT 2025 Admit Card Released <br>-
+                                            How To Download, Direct Link</h5>
+                                        <p class="events-date" style="color: #555;"><i
+                                                class="fa-solid fa-calendar-week"></i> &nbsp;&nbsp; November 20, 2024
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="freeresources">
+            <div class="container">
+                <div class="row ">
+                    <div class="sectionmainheading text-center">Free Resources</div>
+                    <div class="subheading">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur. Sed fames adipiscing cursus elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-lg-block d-none">
+              <div class="row pt-lg-4 pt-3  ">
+                    <div class="col-md-3">
+                        <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+
+                  <div class="row pt-lg-4 pt-3 d-lg-none d-block ">
+                   <div class="freeresourcess">
+                         <div id="freeresources" class="owl-carousel owl-theme">
+                        <!-- Testimonial 1 -->
+                        <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+
+                         <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+                         <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+
+                         <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+
+                         <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+                         <div class="item">
+                            <div class="service-card" style="background-image: url('image/cardone.webp');">
+                            <div class="content">
+                                <img src="image/material.svg" alt="Live Classes" class="icon-img">
+                                <h3>Live Classes</h3>
+                                <p>Lorem ipsum dolor amet</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="telegramchannel">
+            <div class="container">
+                <div class="telchcontainer" style="background-image: url('image/image (15).webp');">
+                    <div class="row">
+                        <div class="col-lg-7 ">
+                            <div class="teligramcontant">
+                                <div class="sectionmainheading">Join us on Telegram <br> Channel</div>
+                                <div class="subheading">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sed fames adipiscing <br> cursus elit.
+                                    </p>
+                                </div>
+                                <div class="joinhowbtn pb-5">
+                                    <a class="applynow-btn" href="#">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="telegramchannelimg">
+                                <img src="image/telgram.webp" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+                     
+    <section>
+        <div class="footerlayout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footercontantlayout">
+                            <img src="image/Logo@2x.webp" class="img-fluid mb-3" width="200" title="Lawprep" alt="" srcset="">
+                            <p>Lorem ipsum dolor sit amet consectetur. Orci erat vestibulum risus at nunc.
+                                Sagittis mus interdum auctor elit.</p>
+                            <div class="socaliconlayout">
+                                <ul>
+                                    <li>
+                                        <a href="#"> <i class="fa-brands fa-square-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="footercontantsdata">
+                            <div class="footerheading">
+                                Important Link
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Courses</a>
+                                </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="footercontantsdata">
+                            <ul class="mt-5">
+                                <li>
+                                    <a href="">
+                                        Results </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        About Us</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Blog</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Daily Updates </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footercontantsdata">
+                            <div class="footerheading">
+                                Contacts Us
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <span><i class="fa-solid fa-location-dot"></i></span>
+                                        525, Lorem ipsum dolor sit amet consectetur.
+                                        Magna lacus vitae enim egestas lectus.</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span><i class="fa-solid fa-phone"></i></span>
+                                        +91 987 654 3210</a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span><i class="fa-regular fa-envelope"></i></span>
+                                        support@lawpreptutorial.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightfooter">
+            © Copyright 2025 <span style="color: #F00109;"> LPT EDTECH PRIVATE LIMITED</span>. All Rights Reserved.
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content position-relative">
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="ratio ratio-16x9">
+                    <iframe id="videoFrame" src="" title="YouTube video" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="javascript/javscript.js"></script>
+
+</html>
